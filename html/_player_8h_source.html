@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Карточная игра: Исходный файл D:/C++/Lab3/CardGame/Player.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Карточная игра
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_3fa3c138f96ac826f31af7910fb31160.html">C++</a></li><li class="navelem"><a class="el" href="dir_1ef23e80617e024dbecce5e92ffcd405.html">Lab3</a></li><li class="navelem"><a class="el" href="dir_43dac69a3110e10a6afe07cc2a5ea895.html">CardGame</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Player.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_player_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_player.html">    5</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_player.html">Player</a></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_player.html#aa7e90c6f6180ba4d229bee39812e673a">increment</a>();</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#ae65d51ec1727faedec4cf1c5f2b3b7e3">getCard</a>();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#a772dcf5fd79e0dba4920711b50fb93be">getCurrentScore</a>();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_player.html#abeeeafa063dc4ef4e95e58cf57c2a4fd">isSuperSkillTimeCame</a>(<span class="keywordtype">int</span> moveNumber);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#a888518bef91d0c451965b4d06b0feb37">getCardsNumber</a>();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_player.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8">Player</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#a51ac8081a83dd09521d23a68ef2cb722">getSuperSkillMoveNumber</a>();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_player.html#a792761d5ad36a51e2691126ab2bfee18">operator ++</a>();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#a946e4977de7f8f4dab22c85129e4f0a9">operator &lt; </a>(<a class="code" href="class_player.html">Player</a> &amp;player);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_player.html#a13660c684b09a1b3e52b39a8ee40d327">   49</a></span>&#160;    std::vector&lt;int&gt; <a class="code" href="class_player.html#a13660c684b09a1b3e52b39a8ee40d327">mDeck</a>;</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_player.html#ac44bd20834b2136f8ca2505a67c12bf7">   51</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#ac44bd20834b2136f8ca2505a67c12bf7">mCardsNumber</a>;</div><div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_player.html#ae768a316c3c2767290e9153e61ec1f5e">   53</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#ae768a316c3c2767290e9153e61ec1f5e">mCurrentScore</a>;</div><div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="class_player.html#a7f8279a54bcd3d42762dec58ceca13dd">   55</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_player.html#a7f8279a54bcd3d42762dec58ceca13dd">mSuperSkillMoveNumber</a>;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="ttc" id="class_player_html_a51ac8081a83dd09521d23a68ef2cb722"><div class="ttname"><a href="class_player.html#a51ac8081a83dd09521d23a68ef2cb722">Player::getSuperSkillMoveNumber</a></div><div class="ttdeci">int getSuperSkillMoveNumber()</div><div class="ttdoc">Геттер поля mSuperSkillMoveNumber.</div></div>
+<div class="ttc" id="class_player_html_a772dcf5fd79e0dba4920711b50fb93be"><div class="ttname"><a href="class_player.html#a772dcf5fd79e0dba4920711b50fb93be">Player::getCurrentScore</a></div><div class="ttdeci">int getCurrentScore()</div><div class="ttdoc">Геттер возвращающий текущее количество баллов игрока.</div></div>
+<div class="ttc" id="class_player_html_ac44bd20834b2136f8ca2505a67c12bf7"><div class="ttname"><a href="class_player.html#ac44bd20834b2136f8ca2505a67c12bf7">Player::mCardsNumber</a></div><div class="ttdeci">int mCardsNumber</div><div class="ttdoc">Число карт в колоде.</div><div class="ttdef"><b>Definition:</b> Player.h:51</div></div>
+<div class="ttc" id="class_player_html_abeeeafa063dc4ef4e95e58cf57c2a4fd"><div class="ttname"><a href="class_player.html#abeeeafa063dc4ef4e95e58cf57c2a4fd">Player::isSuperSkillTimeCame</a></div><div class="ttdeci">bool isSuperSkillTimeCame(int moveNumber)</div><div class="ttdoc">Использовать супер-способность или нет?</div></div>
+<div class="ttc" id="class_player_html_affe0cc3cb714f6deb4e62f0c0d3f1fd8"><div class="ttname"><a href="class_player.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8">Player::Player</a></div><div class="ttdeci">Player()</div><div class="ttdoc">Конструктор, в котором генерируется колода.</div></div>
+<div class="ttc" id="class_player_html_a792761d5ad36a51e2691126ab2bfee18"><div class="ttname"><a href="class_player.html#a792761d5ad36a51e2691126ab2bfee18">Player::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdoc">Перегрузка унарного префиксного оператора.</div></div>
+<div class="ttc" id="class_player_html_aa7e90c6f6180ba4d229bee39812e673a"><div class="ttname"><a href="class_player.html#aa7e90c6f6180ba4d229bee39812e673a">Player::increment</a></div><div class="ttdeci">void increment()</div><div class="ttdoc">Метод для инкрементирования количества баллов игрока.</div></div>
+<div class="ttc" id="class_player_html_a888518bef91d0c451965b4d06b0feb37"><div class="ttname"><a href="class_player.html#a888518bef91d0c451965b4d06b0feb37">Player::getCardsNumber</a></div><div class="ttdeci">int getCardsNumber()</div><div class="ttdoc">Геттер количества карт в колоде.</div></div>
+<div class="ttc" id="class_player_html_a946e4977de7f8f4dab22c85129e4f0a9"><div class="ttname"><a href="class_player.html#a946e4977de7f8f4dab22c85129e4f0a9">Player::operator&lt;</a></div><div class="ttdeci">int operator&lt;(Player &amp;player)</div><div class="ttdoc">Перегрущка бинарного оператора.</div></div>
+<div class="ttc" id="class_player_html_a7f8279a54bcd3d42762dec58ceca13dd"><div class="ttname"><a href="class_player.html#a7f8279a54bcd3d42762dec58ceca13dd">Player::mSuperSkillMoveNumber</a></div><div class="ttdeci">int mSuperSkillMoveNumber</div><div class="ttdoc">Номер хода на котором игрок использует супер-способность</div><div class="ttdef"><b>Definition:</b> Player.h:55</div></div>
+<div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdoc">Класс игрока</div><div class="ttdef"><b>Definition:</b> Player.h:5</div></div>
+<div class="ttc" id="class_player_html_ae65d51ec1727faedec4cf1c5f2b3b7e3"><div class="ttname"><a href="class_player.html#ae65d51ec1727faedec4cf1c5f2b3b7e3">Player::getCard</a></div><div class="ttdeci">int getCard()</div><div class="ttdoc">Метод возвращающий карту из колоды игрока.</div></div>
+<div class="ttc" id="class_player_html_a13660c684b09a1b3e52b39a8ee40d327"><div class="ttname"><a href="class_player.html#a13660c684b09a1b3e52b39a8ee40d327">Player::mDeck</a></div><div class="ttdeci">std::vector&lt; int &gt; mDeck</div><div class="ttdoc">Колода карт</div><div class="ttdef"><b>Definition:</b> Player.h:49</div></div>
+<div class="ttc" id="class_player_html_ae768a316c3c2767290e9153e61ec1f5e"><div class="ttname"><a href="class_player.html#ae768a316c3c2767290e9153e61ec1f5e">Player::mCurrentScore</a></div><div class="ttdeci">int mCurrentScore</div><div class="ttdoc">Текущее количество баллов игрока.</div><div class="ttdef"><b>Definition:</b> Player.h:53</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['test',['TEST',['../_unit_tests_2main_8cpp.html#a353592c4bf64cfd7408a7f9d46074a1d',1,'TEST(Player, DefaultConstructor):&#160;main.cpp'],['../_unit_tests_2main_8cpp.html#a0dae9792231d281a10e2369c632e5819',1,'TEST(Player, SuperSkillTimeCame):&#160;main.cpp'],['../_unit_tests_2main_8cpp.html#a4e0694c62de2ee35eee8f00a440953a1',1,'TEST(Player, SuperSkillTimeCameStability):&#160;main.cpp'],['../_unit_tests_2main_8cpp.html#aaff2ba2db91cd081dcf34e8e46cef07a',1,'TEST(Player, Increment):&#160;main.cpp'],['../_unit_tests_2main_8cpp.html#a41a7018dd8fd18d410c25bb35711104b',1,'TEST(CardGame, GetResult):&#160;main.cpp'],['../_unit_tests_2main_8cpp.html#a89328ee5b18ac24b40e6288dd58cb833',1,'TEST(Player, OperatorIncrement):&#160;main.cpp'],['../_unit_tests_2main_8cpp.html#a64b1a6950235e933b10da0f4a7d80fda',1,'TEST(Player, OperatorLessThan):&#160;main.cpp']]]
+];
